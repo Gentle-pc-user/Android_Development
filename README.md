@@ -1,12 +1,12 @@
-# RoomInSight 🏠📱
+# ߷ RoomInSight ߷
 
-> **Spatial intelligence at your fingertips, mapping every corner of your room in real time.**
+> **Spatial intelligence at your fingertips, mapping every corner of your room!.**
 
 **RoomInSight** is an on-device Android computer vision application built with **Kotlin**, **Jetpack Compose**, **CameraX**, and **ONNX Runtime Mobile**. It uses a custom-distilled **YOLOv26n** object detection model to detect indoor furniture in real time, record room scan sessions, and automatically tabulate object counts per scan.
 
 ---
 
-## ✨ Key Features
+## ▷ Features
 
 - **Real-Time Indoor Object Detection:** Live camera feed powered by CameraX (`Preview` + `ImageAnalysis`) running low-latency, offline inference via ONNX Runtime Mobile.
 - **Custom Bounding-Box Overlays:** Reactive Jetpack Compose `Canvas` overlays highlighting detected indoor furniture classes in real time with confidence scores and Non-Maximum Suppression (NMS) filtering.
@@ -18,7 +18,7 @@
 
 ---
 
-## 🧠 Machine Learning & Distillation Pipeline
+## ▷ Machine Learning & Distillation Pipeline
 
 The object detection model powering RoomInSight was trained end-to-end using PyTorch and Ultralytics YOLO:
 
@@ -33,7 +33,7 @@ The object detection model powering RoomInSight was trained end-to-end using PyT
 
 ---
 
-## 🛠️ Tech Stack
+## ▷ Tech Stack
 
 | Layer | Technologies |
 | :--- | :--- |
@@ -46,7 +46,7 @@ The object detection model powering RoomInSight was trained end-to-end using PyT
 
 ---
 
-## 📂 Project Structure
+## ▷ Project Structure
 
 ```text
 Android_Development/
